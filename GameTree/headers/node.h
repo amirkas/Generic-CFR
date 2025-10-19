@@ -39,6 +39,3 @@ public:
 
     std::shared_ptr<Node<float_type>> GetChild(uint8_t index);
 };
-
-
-

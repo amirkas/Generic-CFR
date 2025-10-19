@@ -195,4 +195,3 @@ void CFR<float_type>::RunCFR(long long iterations, bool chance_sampling) {
         std::cout << "Player " << player_id << ": " << player_ev << std::endl;
     }
 }
-

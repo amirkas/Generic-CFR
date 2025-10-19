@@ -64,10 +64,3 @@ template<typename float_type>
 void InfoSet<float_type>::AddToCumulativeRegret(int index, float_type regret) {
     this->cum_regret[index] += regret;
 }
-
-
-
-
-
-
-

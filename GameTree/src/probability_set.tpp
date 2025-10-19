@@ -20,6 +20,3 @@ uint8_t ProbabilitySet<float_type>::RandomChildIndex() {
     std::discrete_distribution<std::size_t> distribution(this->probabilities.begin(), this->probabilities.end());
     return static_cast<uint8_t>(distribution(gen));
 }
-
-
-

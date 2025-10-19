@@ -48,7 +48,3 @@ template<typename float_type> class InfoSet {
 
         void AddToCumulativeRegret(int index, float_type regret);
 };
-
-
-
-

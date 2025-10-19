@@ -55,10 +55,3 @@ class PokerGameState(GameState):
         non_all_in_investments = list(filter(filter_fn, self.player_investments.values()))
 
         return len(non_all_in_investments) == 0
-
-
-
-
-
-
-

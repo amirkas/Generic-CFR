@@ -4,9 +4,3 @@ from examples.poker.gamestate import PokerGameState
 
 class PokerPlayerNode(PlayerNode):
     pass
-
-
-
-
-
-

@@ -1,5 +1,4 @@
 
 
 class Navigator:
-
     pass

@@ -37,10 +37,3 @@ class CFR:
 
         else:
             raise NotImplementedError(f"Node of type {type(curr_node)} cannot be used")
-
-
-
-
-
-
-

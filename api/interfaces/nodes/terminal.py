@@ -14,4 +14,3 @@ class TerminalNode(ABC, BaseNode):
     @abstractmethod
     def utility(self, player_id: int, gamestate: GameState) -> float:
         pass
-
