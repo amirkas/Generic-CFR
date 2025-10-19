@@ -8,6 +8,9 @@
 #endif //GENERICCFRLIB_CFR_H
 
 #include <node.h>
+#include <player_node.h>
+#include <chance_node.h>
+#include <terminal_node.h>
 #include <infoset.h>
 
 
@@ -17,9 +20,8 @@ class CFR {
     static_assert(std::is_base_of_v<float, float_type>, "float_type must be a float");
 
     std::shared_ptr<Node>  root_node;
+    int num_players = 0;
     long long _tree_size = 0;
-
-    void WalkTree();
 
 public:
 

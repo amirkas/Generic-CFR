@@ -9,6 +9,8 @@ set(LIB_SOURCES
         src/nodes/chance_node.tpp
         src/probability_set.tpp
         headers/navigator.h
+        src/cfr.tpp
+        src/tree.cpp
 )
 
 # Create the static library target
@@ -16,5 +18,5 @@ add_library(GenericCfrLib STATIC ${LIB_SOURCES})
 
 # Specify include directories for the library (if any)
 target_include_directories(GenericCfrLib PUBLIC
-    ${CMAKE_CURRENT_SOURCE_DIR}/headers ${CMAKE_CURRENT_SOURCE_DIR}/headers/nodes
+    ${CMAKE_CURRENT_SOURCE_DIR}/headers ${CMAKE_CURRENT_SOURCE_DIR}/headers/nodes ${CMAKE_CURRENT_SOURCE_DIR}/../extern/pybind11/include
 )
